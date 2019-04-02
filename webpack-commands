@@ -1,0 +1,17 @@
+// WEBPACK INSTALLATION COMMANDS
+
+// open the terminal
+
+npm init -y // iniciando package.json
+
+npm i webpack // descarga webpack localmente
+
+webpack app.js -o output.js // para que nuestro archivo javascript (app.js) pueda importar y transformar
+(webpack no se reconoce como comando)
+
+npx webpack app.js -o output.js // para poder ejecutar el comando webpack localmente
+
+npm i webpack -cli // instalar webpack -cli porque es así se complementa webpack (Command Line Interfaces)
+npx webpack app.js -o output.js // ahora sí
+
+
